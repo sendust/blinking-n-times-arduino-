@@ -90,6 +90,7 @@ class LEDBLINK
 
 unsigned long tm_now = millis();
 unsigned long tm_last_print = 0;
+LEDBLINK ledalarm(13);
 
 void setup()
 {
