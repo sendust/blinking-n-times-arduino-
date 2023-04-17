@@ -101,6 +101,7 @@ void setup()
 void loop()
 {
   tm_now = millis();
+  ledalarm.run();
   if ((tm_now - tm_last_print) > 1000)
   {
     ledalarm.repeat();
